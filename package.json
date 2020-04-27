@@ -7,6 +7,16 @@
     "packages/**/*"
   ],
   "private": true,
+  "scripts": {
+    "story": "lerna run story",
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "yarn run bootstrap",
+    "admin:web": "lerna run start:admin:web",
+    "admin:mobile": "lerna run start:admin:mobile",
+    "clean": "lerna run clean",
+    "build": "lerna run build",
+    "pub": "lerna publish"
+  },
   "devDependencies": {
     "lerna": "^3.20.2"
   }

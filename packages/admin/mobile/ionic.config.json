@@ -1,0 +1,7 @@
+{
+  "name": "admin-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,9 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "admin-mobile",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/snap/android-studio/88/android-studio/bin/studio.sh"
+}
